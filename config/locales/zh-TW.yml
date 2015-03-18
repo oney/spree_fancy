@@ -1,0 +1,9 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+zh-TW:
+  spree:
+    post_task: 發佈任務
+    post_service: 發佈服務
+    task_wall: 任務牆
+    service_wall: 服務牆
