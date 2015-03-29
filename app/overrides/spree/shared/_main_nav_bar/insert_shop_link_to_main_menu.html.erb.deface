@@ -1,5 +1,5 @@
 <!-- replace '#home-link' -->
-<li><%= link_to Spree.t(:post_task), spree.products_path %></li>
-<li><%= link_to Spree.t(:post_service), spree.products_path %></li>
-<li><%= link_to Spree.t(:task_wall), spree.products_path %></li>
+<li><%= link_to Spree.t(:post_task), spree.admin_tasks_path %></li>
+<li><%= link_to Spree.t(:post_service), spree.admin_products_path %></li>
+<li><%= link_to Spree.t(:task_wall), spree.tasks_path %></li>
 <li><%= link_to Spree.t(:service_wall), spree.products_path %></li>
